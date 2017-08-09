@@ -19,12 +19,14 @@ fury_road = media.Movie("Mad Max: Fury Road",
 
 blade_runner = media.Movie("Blade Runner",
                            "A bounty hunter seeks out robotic 'replicants' "
-                           "learns more about his prey, and questions his job.",
+                           "learns more about his prey, "
+                           "and questions his job.",
                            "https://upload.wikimedia.org/wikipedia/en/5/53/Blade_Runner_poster.jpg",  # NOQA
                            "https://youtu.be/eogpIG53Cis")
 
 force_awakens = media.Movie("Star Wars: The Force Awakens",
-                            "A young woman discovers she is strong in the force.",
+                            "A young woman discovers she is "
+                            "strong in the force.",
                             "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",  # NOQA
                             "https://youtu.be/sGbxmsDFVnE")
 
@@ -51,6 +53,6 @@ movies = [fury_road, blade_runner, force_awakens, aliens, princess_bride,
 
 # the array movies includes all of the instances of Movie class, which are
 # called within fresh_tomatoes.py as arguments in create_movie_titles_content
-# and open_movies_page 
+# and open_movies_page
 
 fresh_tomatoes.open_movies_page(movies)
